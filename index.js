@@ -17,6 +17,9 @@ app.get('/target',(req,res)=>{
         name:"pooja"
     }])
 })
+app.get('/github',(req,res)=>{
+ res.send("vsbvb");
+})
 app.listen(port,()=>{
  console.log(`listen port no `);
 })
